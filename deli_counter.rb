@@ -16,3 +16,7 @@ end
 def take_a_number(location, name)
   location << name
 end
+
+def now_serving(location)
+  
+end
