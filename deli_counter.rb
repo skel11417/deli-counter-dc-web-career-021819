@@ -13,7 +13,7 @@ def line(loc)
   end
 end 
 
-def take_a_number(loc, name)
+def take_a_number(location, name)
   line = []
   line << name
   line
