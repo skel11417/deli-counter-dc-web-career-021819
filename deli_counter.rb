@@ -19,5 +19,5 @@ def take_a_number(location, name)
 end
 
 def now_serving(location)
-  
+  puts "There is nobody waiting in line"
 end
