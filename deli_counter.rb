@@ -23,6 +23,6 @@ def now_serving(location)
     puts "There is nobody waiting to be served!"
   else
     current_customer = location.shift
-    puts "Currently serving #{current_customer}"
+    puts "Currently serving #{current_customer}."
   end
 end
