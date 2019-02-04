@@ -15,7 +15,7 @@ end
 
 def take_a_number(location, name)
   location << name
-  puts "Welcome, #{name}. You are number 1 in line."
+  puts "Welcome, #{name}. You are number #{location.length} in line."
 end
 
 def now_serving(location)
