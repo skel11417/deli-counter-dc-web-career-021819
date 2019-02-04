@@ -19,5 +19,9 @@ def take_a_number(location, name)
 end
 
 def now_serving(location)
-  puts "There is nobody waiting to be served!"
+  if location.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    current_customer = location.shift
+    puts "Currently serving #{current_customer}"
 end
