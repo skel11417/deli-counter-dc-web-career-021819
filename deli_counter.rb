@@ -14,7 +14,6 @@ def line(loc)
 end 
 
 def take_a_number(location, name)
-  line = []
   location << name
   line
 end
