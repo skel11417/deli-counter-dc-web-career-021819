@@ -24,4 +24,5 @@ def now_serving(location)
   else
     current_customer = location.shift
     puts "Currently serving #{current_customer}"
+  end
 end
