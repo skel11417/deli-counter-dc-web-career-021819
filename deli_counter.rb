@@ -15,5 +15,4 @@ end
 
 def take_a_number(location, name)
   location << name
-  line
 end
