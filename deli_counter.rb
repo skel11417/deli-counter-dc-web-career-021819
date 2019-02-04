@@ -11,7 +11,7 @@ def line(loc)
       pos += 1 
     end
   end
-  output
+  puts output
 end 
 
 def take_a_number(loc, name)
