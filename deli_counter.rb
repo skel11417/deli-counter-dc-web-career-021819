@@ -15,5 +15,5 @@ end
 
 def take_a_number(loc, name)
   line = []
-  
+  line << name
 end
