@@ -1,8 +1,7 @@
 # Write your code here.
 def line(loc)
-  output = ""
   if loc.empty?
-    output = "The line is currently empty."
+    puts "The line is currently empty."
   else
     output = "The line is currently:"
     pos = 1
@@ -10,8 +9,8 @@ def line(loc)
       output << " #{pos}. #{name}"
       pos += 1 
     end
+    puts output
   end
-  puts output
 end 
 
 def take_a_number(loc, name)
