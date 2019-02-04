@@ -6,7 +6,7 @@ def line(loc)
     output = "The line is currently:"
     pos = 1
     loc.each do |name|
-      output << " #{pos}. {name}"
+      output << " #{pos}. #{name}"
       pos += 1 
     end
   end
